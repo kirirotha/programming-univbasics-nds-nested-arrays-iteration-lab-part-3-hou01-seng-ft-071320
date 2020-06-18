@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while column_index < src.count do
     row_index = 0 
     while row_index < src[column_index].count do 
-      if (src[column_index][row_index]/1) == nil
+      if src[column_index][row_index] == nil
         output_line.join(src[column_index][row_index])
       end
       row_index += 1 
