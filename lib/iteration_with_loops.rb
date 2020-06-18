@@ -1,5 +1,4 @@
 
-array = [["I",2], [ 4,"am",5], ["a"], ["dog."] ]
 
 
 def join_nested_strings(src)
@@ -19,4 +18,3 @@ def join_nested_strings(src)
   end
   puts output_line.join(" ")
 end
-join_nested_strings(array)
