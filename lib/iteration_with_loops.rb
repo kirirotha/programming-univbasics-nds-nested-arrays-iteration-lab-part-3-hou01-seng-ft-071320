@@ -1,3 +1,7 @@
+
+array = ["I", "am", "a","dog." ]
+
+
 def join_nested_strings(src)
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
@@ -15,4 +19,4 @@ def join_nested_strings(src)
   end
   puts output_line.join(" ")
 end
-join_nested_strings
+join_nested_strings(array)
