@@ -15,3 +15,4 @@ def join_nested_strings(src)
   end
   puts output_line.join(" ")
 end
+join_nested_strings
