@@ -1,5 +1,5 @@
 
-array = ["I", "am", "a","dog." ]
+array = [["I",2], [ 4,"am",5], ["a"], ["dog."] ]
 
 
 def join_nested_strings(src)
