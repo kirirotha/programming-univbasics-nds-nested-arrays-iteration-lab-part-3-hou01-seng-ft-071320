@@ -7,11 +7,11 @@ def join_nested_strings(src)
     row_index = 0 
     while row_index < src[column_index].count do 
       if src[column_index][row_index].is_a? String
-        output_line.join(src[column_index][row_index])
+        output_line << src[column_index][row_index]
       end
       row_index += 1 
     end  
     column_index += 1 
   end
-  output_line
+  output_line.join(" ")
 end
